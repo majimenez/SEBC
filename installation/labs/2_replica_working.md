@@ -1,4 +1,4 @@
-<b>Initiate slave operations on the replica</b>
+<b>Initiate slave operations on the replica</b><br/>
 <i>Nodes:</i>
 <ul>
 <li>Master: ip-172-31-39-206</li>
