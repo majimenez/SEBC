@@ -12,9 +12,9 @@ Parameters Settings: <br/>
 Comments:<br>
 <ul>
 <li>
-memory addressed to OS is too high for a worker node. The best is to give about 0,7% (aprox.9G) of the OS memory is more than enough.
+Memory and CPU addressed to OS is too high for a worker node. The best is to give about 0,7% (aprox.9G) of the OS memory is more than enough.
 </li>
-<li>(Cell F2) yarn.nodemanager.resource.cpu-vcores * "workload factor" to allow to execute more tasks per CPU</li>
+
 </ul>
 <b>2. What criteria affects workload factor? What does a value of 1, 2, or 4 signify?</b>
 
