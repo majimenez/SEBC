@@ -1,22 +1,22 @@
 <b>Initiate slave operations on the replica</b><br/>
 <i>Nodes:</i>
 <ul>
-<li>Master: ip-172-31-39-206</li>
-<li>Slave: ip-172-31-38-232</li>
+<li>Master: ip-172-31-2-87</li>
+<li>Slave: ip-172-31-0-201</li>
 </ul>
 <pre>
 mysql> SHOW SLAVE STATUS \G
 *************************** 1. row ***************************
                Slave_IO_State: Waiting for master to send event
-                  Master_Host: ip-172-31-39-206
-                  Master_User: replica
+                  Master_Host: ip-172-31-2-87
+                  Master_User: replication
                   Master_Port: 3306
                 Connect_Retry: 60
-              Master_Log_File: log-bin.000002
-          Read_Master_Log_Pos: 595
-               Relay_Log_File: ip-172-31-38-232-relay-bin.000003
-                Relay_Log_Pos: 804
-        Relay_Master_Log_File: log-bin.000002
+              Master_Log_File: log-bin.000001
+          Read_Master_Log_Pos: 43664841
+               Relay_Log_File: ip-172-31-0-201-relay-bin.000002
+                Relay_Log_Pos: 43665005
+        Relay_Master_Log_File: log-bin.000001
              Slave_IO_Running: Yes
             Slave_SQL_Running: Yes
               Replicate_Do_DB: 
@@ -28,8 +28,8 @@ mysql> SHOW SLAVE STATUS \G
                    Last_Errno: 0
                    Last_Error: 
                  Skip_Counter: 0
-          Exec_Master_Log_Pos: 595
-              Relay_Log_Space: 1186
+          Exec_Master_Log_Pos: 43664841
+              Relay_Log_Space: 43665222
               Until_Condition: None
                Until_Log_File: 
                 Until_Log_Pos: 0
@@ -47,7 +47,7 @@ Master_SSL_Verify_Server_Cert: No
                Last_SQL_Error: 
   Replicate_Ignore_Server_Ids: 
              Master_Server_Id: 1
-                  Master_UUID: bd283ee5-4a41-11e7-8bf9-0a5fe90751e7
+                  Master_UUID: fdd654cd-4b1b-11e7-a4b3-029861a823ee
              Master_Info_File: /var/lib/mysql/master.info
                     SQL_Delay: 0
           SQL_Remaining_Delay: NULL
@@ -65,4 +65,5 @@ Master_SSL_Verify_Server_Cert: No
                  Channel_Name: 
            Master_TLS_Version: 
 1 row in set (0.00 sec)
+	
 </pre>
