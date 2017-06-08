@@ -46,7 +46,7 @@ select cpu_system_rate + cpu_user_rate where category=ROLE and serviceName=HUE
 
 <b>What steps must be completed before integrating Cloudera Manager with Kerberos?</b><br/>
 <ol>
-<li>Configuration of DNS and Reverse DNS Resolutions<li>
+<li>Configuration of DNS and Reverse DNS Resolutions</li>
 <li>Install or upgrade the Java JCE Polices</li>
 <li>Install krb5-workstation and auth-libs in all nodes</li>
 <li>Install krb5-server in the KDC node</li> 
