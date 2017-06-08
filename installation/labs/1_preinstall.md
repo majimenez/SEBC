@@ -42,8 +42,7 @@ cat: /sys/kernel/mm/redhat_transparent_hugepage/enabled: No such file or directo
 cat: /sys/kernel/mm/redhat_transparent_hugepage/defrag: No such file or directory
 </pre>
 
-<i>Source: https://access.redhat.com/solutions/446813</i><br/>
-"The Transparent Huge Pages (THP) feature is not present on the 32-bit (x86) version of Red Hat Enterprise Linux 6. Install the 64-bit (x86_64) version to enable this feature"<br/>
+
 
 
 <b>5. List your network interface configuration</b>
