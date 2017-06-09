@@ -149,6 +149,6 @@ Status: HEALTHY
 FSCK ended at Fri Jun 09 10:23:32 UTC 2017 in 3 milliseconds
 
 
-The filesystem under path '/user/theresa/tgen512m/' is HEALTHY
+The filesystem under path '/user/theresa/tgen512m/' is HEALTHYkadmin.local
 </pre>
 </pre>

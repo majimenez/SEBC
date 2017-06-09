@@ -1,1 +1,2 @@
-kadm5.acl
+*/admin@MAJIMENEZ.CO.UK    *
+cloudera-scm@MAJIMENEZ.CO.UK  admilc
