@@ -1,3 +1,4 @@
+```
 [mysql-connectors-community]
 name=MySQL Connectors Community
 baseurl=http://repo.mysql.com/yum/mysql-connectors-community/el/6/$basearch/
@@ -62,3 +63,4 @@ baseurl=http://repo.mysql.com/yum/mysql-cluster-7.6-community/el/6/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+```
