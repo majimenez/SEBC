@@ -112,7 +112,9 @@ sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 theresa:x:2000:501::/home/theresa:/bin/bash
 jeremy:x:3000:500::/home/jeremy:/bin/bash
 </pre>
-
+```
+Consider grep (theresa|jeremy) /etc/passwd
+```
 <h1>List the /etc/group entries for conservative and labour in your setup file</h1>
 <pre>
 root:x:0:
@@ -152,7 +154,8 @@ sshd:x:74:
 labour:x:500:
 conservative:x:501:
 </pre>
-
-
+```
+Consider grep (labour|conservative) /etc/group
+```
 
 
